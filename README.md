@@ -1,1 +1,11 @@
 # CS370
+
+In this project, I was tasked with developing part of a pirate intelligent agent for a treasure hunt game using deep Q-learning. I was provided with code that included the environment setup (TreasureMaze.py), experience replay functionality (GameExperience.py), and a Jupyter Notebook containing functions to build the neural network model and play the game. The code defined the maze, the pirate's logic and functions for running the game for the pirate agent.
+
+The code I helped create was within the qtrain function. This is where I implemented the deep Q-learning algorithm. This included the the loop that trains the agent over multiple epochs. Additionally, this function manages the balance of the exploration and exploitation using the “epsilon” value and “EXPLORATION_DECAY.”  I helped code the agent to select actions, update its state based on rewards or penalties, store experiences, and train the neural network model with these experiences.
+
+Developing intelligent agents like the pirate in this project, computer scientists contribute to advancements in artificial intelligence and machine learning. These advancements can have far-reaching benefits to other fields like in healthcare, science, education, and more by providing more efficient and intelligent solutions.
+
+Understanding the requirements of the project was crucial in solving it. Referencing the agent specifications and requirements helped in this process. After fully understanding the criteria of the deep Q-learning function, I was able to incorporate the algorithm within the code.
+
+My ethical responsibilities to the end user and the organization involve verifying that the software I develop is reliable, safe, and respects user privacy. The handling of user-data should be compliant with government regulations with options to opt-out/opt-in to data collection. I should consider the potential consequences of my work in order to prevent bias or misleading information, which would undermine the AI solution. To avoid bias or inaccuracies in my algorithms, I need to analyze if my datasets are overfitting or otherwise do not accurately represent what the model attempts to portray. This level of due-dilligence is best done throughout the development process, helping to build trust through responsible solutions.
